@@ -1,0 +1,34 @@
+{% extends 'commons/base.html.twig' %}
+    {% block body %}
+        {% include 'commons/_headerLittle.html.twig' %}
+        <h1 class="titleCourse"> MES SERVICES</h1>
+        <div class="row">
+            {% for course in courses %}
+                <div>
+                    {{ course.name }}
+                    {#<div class="coursesClass"> <a href="{{ path('course',{id :course.id}) }}"> <h2> {{ course.name }} </h2><nav class="buttonCourse"></nav></a>
+                    </div>#}
+                </div>
+            {% endfor %}
+        </div>
+
+       {# <div class="container-fluid">
+            <div class="row row-cols-3 row-cols-sm-2 row-cols-md-1">
+                <div class="col col-sm-8 col-md-6 col-lg-6 courses">
+                    <img src="{{ asset('img/golfeur.jpg') }}" alt="cours de golf" class="imgResp">
+                </div>
+                <div class="col col-sm-8 col-md-6 col-lg-6 courses">
+                    <img src="{{ asset('img/stage2.jpeg') }}" alt="cours de golf" class="imgResp">
+                </div>
+                <div class="col col-sm-8 col-md-6 col-lg-6 courses">
+                    <img src="{{ asset('img/carte_verte.jpg') }}" alt="cours de golf" class="imgResp">
+                </div>
+                <div class="col col-sm-8 col-md-6 col-lg-6 courses">
+                    <img src="{{ asset('img/chateaux.jpeg') }}" alt="cours de golf" class="imgResp">
+                </div>
+            </div>
+        </div>#}
+
+
+        <button class="backCenter"><a href="{{ path('home') }}">Retour à l'accueil</a></button>
+    {% endblock %}

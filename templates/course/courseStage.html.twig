@@ -1,0 +1,64 @@
+{% extends 'commons/base.html.twig' %}
+    {% block body %}
+        {% include 'commons/_header.html.twig' %}
+<div>
+    <nav>
+        <p>Besoins d'informations ? Cliquez</p>
+    </nav>
+</div>
+        <h1 class="titleCourse">STAGES/SEJOURS</h1>
+<section>
+    <h2 class="titleCourseType">L'initiation</h2>
+        <div>
+            <img src="" alt="">
+            <h3>stage initiation découverte</h3>
+            <p>Tarif et nombre d'heures</p>
+            <div>Plus d'info</div>
+        </div>
+        <div>
+            <img src="" alt="">
+            <h3>stage initiation +</h3>
+            <p>Tarif et nombre d'heures</p>
+            <div>Plus d'info</div>
+        </div>
+        <div>
+            <img src="" alt="">
+            <h3>stage initiation parcours</h3>
+            <p>Tarif et nombre d'heures</p>
+            <div>Plus d'info</div>
+        </div>
+</section>
+<section>
+    <h2 class="titleCourseType">Perfectionnement</h2>
+        <div>
+            <img src="" alt="">
+            <h3>stage Week-End</h3>
+            <p>Tarif et nombre d'heures</p>
+            <div>Plus d'info</div>
+        </div>
+        <div>
+            <img src="" alt="">
+            <h3>stage été</h3>
+            <p>Tarif et nombre d'heures</p>
+            <div>Plus d'info</div>
+        </div>
+        <div>
+            <img src="" alt="">
+            <h3>stage à thème</h3>
+            <p>Tarif et nombre d'heures</p>
+            <div>Plus d'info</div>
+        </div>
+</section>
+<section>
+    <h2 class="titleCourseType">Séjours golfiques</h2>
+    <div>
+        <img src="" alt="">
+        <a href="mailto:gilles.arnaud.golf@gmail.com"><h2 class="titleCourseTypeBis">En France</h2></a>
+    </div>
+    <div>
+        <img src="" alt="">
+        <a href="mailto:gilles.arnaud.golf@gmail.com"><h2 class="titleCourseTypeBis">à l'étranger</h2></a>
+    </div>
+</section>
+        <button class="backCenter"><a href="{{ path('home') }}">Retour à l'accueil</a></button>
+{% endblock %}

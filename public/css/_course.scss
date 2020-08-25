@@ -19,7 +19,7 @@
   position: relative;
   overflow: hidden;
 }
-.courses {
+.coursesClass {
   width: 20%;
   margin: 20px 0;
   overflow: hidden;
@@ -41,4 +41,17 @@
   width: 200px;
   margin: 2rem;
   text-align: center;
+}
+//----------------------------------------  STAGES  ------------------------------------------
+.titleCourseType{
+  font-family: Trattatello,arial, sans-serif;
+  color: #422ED9;
+  font-size: 30px;
+  margin-top: 130px;
+}
+.titleCourseTypeBis{
+  font-family: "Helvetica Neue", arial;
+  color: #422ED9;
+  font-size: 24px;
+  margin-top: 130px;
 }
